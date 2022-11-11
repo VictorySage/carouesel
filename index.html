@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel/Slideshow</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left">
+        <img src="angle-left.svg" alt="" />
+      </button>
+
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="aa.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="aaa.jpg"
+              alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="aab.jpg"
+              alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="aac.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="aad.jpg"
+              alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="aae.jpg"
+              alt="" />
+          </li>
+        </ul>
+      </div>
+
+      <button class="carousel__button carousel__button--right">
+        <img src="angle-right.svg" alt="" />
+      </button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
